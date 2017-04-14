@@ -1,0 +1,19 @@
+<h1><b>Contact us</br></b></h1>
+
+<h3><b>If you have any questions, get in touch, we will be pleased to get back to you!</b></h3>
+
+<h3>Our address:</br> 48, Munster Streer - IFSC Dublin 1</h3>
+
+<form id="form1" runat="server">
+<div>
+<table cellspacing="2" cellpadding="2" border="0">
+<tr><td></td><td><b>Contact Us Form</b></td></tr>
+<tr><td><b>Name</b></td><td><asp:TextBox ID="txtName" runat="server" /></td></tr>
+<tr><td><b>Email</b></td><td><asp:TextBox ID="txtEmail" runat="server" /></td></tr>
+<tr><td><b>Subject</b></td><td><asp:TextBox ID="txtSubject" runat="server" /></td></tr>
+<tr><td valign="top"><b>Message</b></td><td> <asp:TextBox ID="txtMessage" Rows="5" Columns="40" TextMode="MultiLine" runat="server"/></td></tr>
+<tr><td></td><td><asp:button ID="btnSubmit" Text="Submit"  runat="server" onclick="btnSubmit_Click" CssClass="Button"/></td></tr>
+<tr><td colspan="2" style=" color:red"><asp:Label ID="lbltxt" runat="server"/></td></tr>
+</table>
+</div>
+</form>
